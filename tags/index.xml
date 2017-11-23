@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Chris Wijaya</title>
-    <link>./tags/</link>
+    <link>https://chriswijaya.github.io/tags/</link>
     <description>Recent content in Tags on Chris Wijaya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/ribice&#34;&gt;Chris Wijaya&lt;/a&gt; 2017</copyright>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/chriswijaya&#34;&gt;Chris Wijaya&lt;/a&gt; 2017</copyright>
     <lastBuildDate>Sat, 18 Nov 2017 19:07:22 +1100</lastBuildDate>
     
-	<atom:link href="./tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chriswijaya.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Certificate</title>
-      <link>./tags/certificate/</link>
+      <link>https://chriswijaya.github.io/tags/certificate/</link>
       <pubDate>Sat, 18 Nov 2017 19:07:22 +1100</pubDate>
       
-      <guid>./tags/certificate/</guid>
+      <guid>https://chriswijaya.github.io/tags/certificate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Csr</title>
-      <link>./tags/csr/</link>
+      <link>https://chriswijaya.github.io/tags/csr/</link>
       <pubDate>Sat, 18 Nov 2017 19:07:22 +1100</pubDate>
       
-      <guid>./tags/csr/</guid>
+      <guid>https://chriswijaya.github.io/tags/csr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Https</title>
-      <link>./tags/https/</link>
+      <link>https://chriswijaya.github.io/tags/https/</link>
       <pubDate>Sat, 18 Nov 2017 19:07:22 +1100</pubDate>
       
-      <guid>./tags/https/</guid>
+      <guid>https://chriswijaya.github.io/tags/https/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Openssl</title>
-      <link>./tags/openssl/</link>
+      <link>https://chriswijaya.github.io/tags/openssl/</link>
       <pubDate>Sat, 18 Nov 2017 19:07:22 +1100</pubDate>
       
-      <guid>./tags/openssl/</guid>
+      <guid>https://chriswijaya.github.io/tags/openssl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ssl Tls</title>
-      <link>./tags/ssl-tls/</link>
+      <link>https://chriswijaya.github.io/tags/ssl-tls/</link>
       <pubDate>Sat, 18 Nov 2017 19:07:22 +1100</pubDate>
       
-      <guid>./tags/ssl-tls/</guid>
+      <guid>https://chriswijaya.github.io/tags/ssl-tls/</guid>
       <description></description>
     </item>
     
