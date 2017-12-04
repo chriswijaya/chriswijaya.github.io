@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://chriswijaya.github.io/post/keytool-shared-keystore-truststore/</loc>
+    <lastmod>2017-11-24T22:36:37+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chriswijaya.github.io/post/openssl-create-csr/</loc>
     <lastmod>2017-11-18T19:07:22+11:00</lastmod>
   </url>
@@ -15,7 +20,7 @@
   
   <url>
     <loc>https://chriswijaya.github.io/</loc>
-    <lastmod>2017-11-18T19:07:22+11:00</lastmod>
+    <lastmod>2017-11-24T22:36:37+11:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -27,7 +32,25 @@
   
   <url>
     <loc>https://chriswijaya.github.io/tags/https/</loc>
-    <lastmod>2017-11-18T19:07:22+11:00</lastmod>
+    <lastmod>2017-11-24T22:36:37+11:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chriswijaya.github.io/tags/jks/</loc>
+    <lastmod>2017-11-24T22:36:37+11:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chriswijaya.github.io/tags/keystore/</loc>
+    <lastmod>2017-11-24T22:36:37+11:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chriswijaya.github.io/tags/keytool/</loc>
+    <lastmod>2017-11-24T22:36:37+11:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -38,20 +61,32 @@
   </url>
   
   <url>
+    <loc>https://chriswijaya.github.io/tags/pkcs12/</loc>
+    <lastmod>2017-11-24T22:36:37+11:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://chriswijaya.github.io/post/</loc>
-    <lastmod>2017-11-18T19:07:22+11:00</lastmod>
+    <lastmod>2017-11-24T22:36:37+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://chriswijaya.github.io/tags/ssl-tls/</loc>
-    <lastmod>2017-11-18T19:07:22+11:00</lastmod>
+    <lastmod>2017-11-24T22:36:37+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://chriswijaya.github.io/tags/</loc>
     <lastmod>2017-11-18T19:07:22+11:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chriswijaya.github.io/tags/truststore/</loc>
+    <lastmod>2017-11-24T22:36:37+11:00</lastmod>
     <priority>0</priority>
   </url>
   

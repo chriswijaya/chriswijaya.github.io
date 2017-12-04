@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/chriswijaya&#34;&gt;Chris Wijaya&lt;/a&gt; 2017</copyright>
-    <lastBuildDate>Sat, 18 Nov 2017 19:07:22 +1100</lastBuildDate>
+    <lastBuildDate>Fri, 24 Nov 2017 22:36:37 +1100</lastBuildDate>
     
 	<atom:link href="https://chriswijaya.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bundle Public and Private Key in PKCS12 KeyStore</title>
+      <link>https://chriswijaya.github.io/post/keytool-shared-keystore-truststore/</link>
+      <pubDate>Fri, 24 Nov 2017 22:36:37 +1100</pubDate>
+      
+      <guid>https://chriswijaya.github.io/post/keytool-shared-keystore-truststore/</guid>
+      <description>There are many ways to install SSL certificate across different applications, it depends on what stack you used and method you chose. When building Java application you can use Key Store to store private key, and there is Trust Store to store certificates from trusted Certificate Authorities (CA).
+Key Store or Trust Store The naming convention confuses a lot of people, but essentialy they are of the same Java KeyStore (JKS) type.</description>
+    </item>
     
     <item>
       <title>Create a Certificate Signing Request (CSR) with OpenSSL</title>
