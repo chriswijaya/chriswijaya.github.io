@@ -2,103 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Chris Wijaya</title>
-    <link>https://chriswijaya.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Chris Wijaya</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/chriswijaya&#34;&gt;Chris Wijaya&lt;/a&gt; 2017</copyright>
-    <lastBuildDate>Sat, 18 Nov 2017 19:07:22 +1100</lastBuildDate>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 24 Nov 2017 13:22:24 +1000</lastBuildDate>
     
-	<atom:link href="https://chriswijaya.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Certificate</title>
-      <link>https://chriswijaya.github.io/tags/certificate/</link>
-      <pubDate>Sat, 18 Nov 2017 19:07:22 +1100</pubDate>
+      <title>https</title>
+      <link>/tags/https/</link>
+      <pubDate>Fri, 24 Nov 2017 13:22:24 +1000</pubDate>
       
-      <guid>https://chriswijaya.github.io/tags/certificate/</guid>
+      <guid>/tags/https/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Csr</title>
-      <link>https://chriswijaya.github.io/tags/csr/</link>
-      <pubDate>Sat, 18 Nov 2017 19:07:22 +1100</pubDate>
+      <title>jks</title>
+      <link>/tags/jks/</link>
+      <pubDate>Fri, 24 Nov 2017 13:22:24 +1000</pubDate>
       
-      <guid>https://chriswijaya.github.io/tags/csr/</guid>
+      <guid>/tags/jks/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Https</title>
-      <link>https://chriswijaya.github.io/tags/https/</link>
-      <pubDate>Fri, 24 Nov 2017 22:36:37 +1100</pubDate>
+      <title>keytool</title>
+      <link>/tags/keytool/</link>
+      <pubDate>Fri, 24 Nov 2017 13:22:24 +1000</pubDate>
       
-      <guid>https://chriswijaya.github.io/tags/https/</guid>
+      <guid>/tags/keytool/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Jks</title>
-      <link>https://chriswijaya.github.io/tags/jks/</link>
-      <pubDate>Fri, 24 Nov 2017 22:36:37 +1100</pubDate>
+      <title>pkcs12</title>
+      <link>/tags/pkcs12/</link>
+      <pubDate>Fri, 24 Nov 2017 13:22:24 +1000</pubDate>
       
-      <guid>https://chriswijaya.github.io/tags/jks/</guid>
+      <guid>/tags/pkcs12/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Keystore</title>
-      <link>https://chriswijaya.github.io/tags/keystore/</link>
-      <pubDate>Fri, 24 Nov 2017 22:36:37 +1100</pubDate>
+      <title>ssl/tls</title>
+      <link>/tags/ssl/tls/</link>
+      <pubDate>Fri, 24 Nov 2017 13:22:24 +1000</pubDate>
       
-      <guid>https://chriswijaya.github.io/tags/keystore/</guid>
+      <guid>/tags/ssl/tls/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Keytool</title>
-      <link>https://chriswijaya.github.io/tags/keytool/</link>
-      <pubDate>Fri, 24 Nov 2017 22:36:37 +1100</pubDate>
+      <title>ca-certificate</title>
+      <link>/tags/ca-certificate/</link>
+      <pubDate>Sat, 18 Nov 2017 12:26:47 +1000</pubDate>
       
-      <guid>https://chriswijaya.github.io/tags/keytool/</guid>
+      <guid>/tags/ca-certificate/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Openssl</title>
-      <link>https://chriswijaya.github.io/tags/openssl/</link>
-      <pubDate>Sat, 18 Nov 2017 19:07:22 +1100</pubDate>
+      <title>csr</title>
+      <link>/tags/csr/</link>
+      <pubDate>Sat, 18 Nov 2017 12:26:47 +1000</pubDate>
       
-      <guid>https://chriswijaya.github.io/tags/openssl/</guid>
+      <guid>/tags/csr/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Pkcs12</title>
-      <link>https://chriswijaya.github.io/tags/pkcs12/</link>
-      <pubDate>Fri, 24 Nov 2017 22:36:37 +1100</pubDate>
+      <title>openssl</title>
+      <link>/tags/openssl/</link>
+      <pubDate>Sat, 18 Nov 2017 12:26:47 +1000</pubDate>
       
-      <guid>https://chriswijaya.github.io/tags/pkcs12/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ssl Tls</title>
-      <link>https://chriswijaya.github.io/tags/ssl-tls/</link>
-      <pubDate>Fri, 24 Nov 2017 22:36:37 +1100</pubDate>
-      
-      <guid>https://chriswijaya.github.io/tags/ssl-tls/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Truststore</title>
-      <link>https://chriswijaya.github.io/tags/truststore/</link>
-      <pubDate>Fri, 24 Nov 2017 22:36:37 +1100</pubDate>
-      
-      <guid>https://chriswijaya.github.io/tags/truststore/</guid>
+      <guid>/tags/openssl/</guid>
       <description></description>
     </item>
     

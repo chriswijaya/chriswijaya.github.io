@@ -2,35 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chris Wijaya</title>
-    <link>https://chriswijaya.github.io/</link>
+    <link>/</link>
     <description>Recent content on Chris Wijaya</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/chriswijaya&#34;&gt;Chris Wijaya&lt;/a&gt; 2017</copyright>
-    <lastBuildDate>Fri, 24 Nov 2017 22:36:37 +1100</lastBuildDate>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 20 May 2019 22:22:12 +1000</lastBuildDate>
     
-	<atom:link href="https://chriswijaya.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Bundle Public and Private Key in PKCS12 KeyStore</title>
-      <link>https://chriswijaya.github.io/post/keytool-shared-keystore-truststore/</link>
-      <pubDate>Fri, 24 Nov 2017 22:36:37 +1100</pubDate>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 20 May 2019 22:22:12 +1000</pubDate>
       
-      <guid>https://chriswijaya.github.io/post/keytool-shared-keystore-truststore/</guid>
-      <description>There are many ways to install SSL certificate across different applications, it depends on what stack you used and method you chose. When building Java application you can use Key Store to store private key, and there is Trust Store to store certificates from trusted Certificate Authorities (CA).
-Key Store or Trust Store The naming convention confuses a lot of people, but essentialy they are of the same Java KeyStore (JKS) type.</description>
+      <guid>/about/</guid>
+      <description>Hi, I am a software and data engineer in Sydney, Australia region who is passionate about distributed system and website development (and gadgets! especially smart phones). I had started to write some contents about my DevOps stories back in 2017 and planning to continue to my work on writing content from May 2019 onwards with a broarder scope around tech.
+I pledge to redo the site theme in May 2019 and post a forthnightly article from June 2019 till the end of the year with the goal to experience content creation process and hopefully able to create some quality ones.</description>
+    </item>
+    
+    <item>
+      <title>Bundle keys into PKCS12</title>
+      <link>/posts/bundle-keys-into-pkcs12/</link>
+      <pubDate>Fri, 24 Nov 2017 13:22:24 +1000</pubDate>
+      
+      <guid>/posts/bundle-keys-into-pkcs12/</guid>
+      <description>Java has keytool command that has comprehensive commands to deal with it&amp;rsquo;s SSL certificate management, inclusively commands that deal with operation towards extracting from and bundling into Java keystore/truststore or other type of SSL keystore types such as PKCS12.
+When building Java application you can use Key Store to store private key, and there is Trust Store to store certificates from trusted Certificate Authorities (CA).
+Key Store or Trust Store The naming convention confuses a lot of people including myself, however they are essentially of the same Java KeyStore (JKS) type.</description>
     </item>
     
     <item>
       <title>Create a Certificate Signing Request (CSR) with OpenSSL</title>
-      <link>https://chriswijaya.github.io/post/openssl-create-csr/</link>
-      <pubDate>Sat, 18 Nov 2017 19:07:22 +1100</pubDate>
+      <link>/posts/openssl-create-csr/</link>
+      <pubDate>Sat, 18 Nov 2017 12:26:47 +1000</pubDate>
       
-      <guid>https://chriswijaya.github.io/post/openssl-create-csr/</guid>
+      <guid>/posts/openssl-create-csr/</guid>
       <description>I needed to set up HTTPS enabled website in a secured business environment and a part of the process is to submit a Certificate Signing Request (CSR) to Certificate Authority (CA).
-HTTPS is SSL/TLS layer that secure communication between client and server on top of HTTP. If you&amp;rsquo;d like to know more about how HTTPS works, Robert Heaton wrote a good article about SSL/TLS over HTTP here.
-You will need a private key to generate .</description>
+HTTPS is SSL/TLS layer that secure communication between client and server on top of HTTP. If you’d like to know more about how HTTPS works, Robert Heaton wrote a good article about SSL/TLS over HTTP right here.
+To generate the .</description>
     </item>
     
   </channel>

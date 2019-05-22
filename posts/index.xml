@@ -1,0 +1,78 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Chris Wijaya</title>
+        <link>/posts/</link>
+        <description>Recent content in Posts on Chris Wijaya</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Fri, 24 Nov 2017 13:22:24 +1000</lastBuildDate>
+        <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Bundle keys into PKCS12</title>
+            <link>/posts/bundle-keys-into-pkcs12/</link>
+            <pubDate>Fri, 24 Nov 2017 13:22:24 +1000</pubDate>
+            
+            <guid>/posts/bundle-keys-into-pkcs12/</guid>
+            <description>Java has keytool command that has comprehensive commands to deal with it&amp;rsquo;s SSL certificate management, inclusively commands that deal with operation towards extracting from and bundling into Java keystore/truststore or other type of SSL keystore types such as PKCS12.
+When building Java application you can use Key Store to store private key, and there is Trust Store to store certificates from trusted Certificate Authorities (CA).
+Key Store or Trust Store The naming convention confuses a lot of people including myself, however they are essentially of the same Java KeyStore (JKS) type.</description>
+            <content type="html"><![CDATA[
+
+<p>Java has <code>keytool</code> command that has comprehensive commands to deal with it&rsquo;s SSL certificate management, inclusively commands that deal with operation towards extracting from and bundling into Java keystore/truststore or other type of SSL keystore types such as PKCS12.</p>
+
+<p>When building Java application you can use Key Store to store private key, and there is Trust Store to store certificates from trusted Certificate Authorities (CA).</p>
+
+<h2 id="key-store-or-trust-store">Key Store or Trust Store</h2>
+
+<p>The naming convention confuses a lot of people including myself, however they are essentially of the same Java KeyStore (JKS) type. Think of it as key repository if you would, a Java app typically own both stores to separate public and private key. We can also bundle public and private keys together and store them in a single KeyStore. You can tell which method is being used by checking whether the KeyStore and TrustStore point to the same JKS location.</p>
+
+<h2 id="keytool">Keytool</h2>
+
+<p>Keytool is a tool that manages keystore and it does other things such as creating CSR, self-sign a certificate, keys crpytograpy, etc. We can bundle a public key and a private key pair into a <a href="https://en.wikipedia.org/wiki/PKCS_12">PKCS12</a> format using the Keytool command below and take a note of the password when prompted.</p>
+
+<pre><code class="language-bash">openssl pkcs12 -export -name your.domain.com -in selfsigned.crt -inkey private.key -out store.p12
+</code></pre>
+
+<p>To import generated <a href="https://en.wikipedia.org/wiki/PKCS_12">PKCS12</a> by the command above we can execute the command below.</p>
+
+<pre><code class="language-bash">keytool -importkeystore -srckeystore store.p12 -srcstoretype PKCS12 -destkeystore my-keystore
+</code></pre>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Create a Certificate Signing Request (CSR) with OpenSSL</title>
+            <link>/posts/openssl-create-csr/</link>
+            <pubDate>Sat, 18 Nov 2017 12:26:47 +1000</pubDate>
+            
+            <guid>/posts/openssl-create-csr/</guid>
+            <description>I needed to set up HTTPS enabled website in a secured business environment and a part of the process is to submit a Certificate Signing Request (CSR) to Certificate Authority (CA).
+HTTPS is SSL/TLS layer that secure communication between client and server on top of HTTP. If you’d like to know more about how HTTPS works, Robert Heaton wrote a good article about SSL/TLS over HTTP right here.
+To generate the .</description>
+            <content type="html"><![CDATA[<p>I needed to set up HTTPS enabled website in a secured business environment and a part of the process is to submit a Certificate Signing Request (CSR) to Certificate Authority (CA).</p>
+
+<p>HTTPS is SSL/TLS layer that secure communication between client and server on top of HTTP. If you’d like to know more about how HTTPS works, Robert Heaton wrote a good article about SSL/TLS over HTTP right <a href="https://robertheaton.com/2014/03/27/how-does-https-actually-work/">here</a>.</p>
+
+<p>To generate the <code>.csr</code> file I needed a private key, and there are a few ways I can generate the private key with. I can generate the private key on its own, along with the public key set or altogether with both public key and the <code>.csr</code> file. <a href="https://www.openssl.org/">OpenSSL</a> is a handy CLI tool that can generate these files.</p>
+
+<p>Here is below some handy OpenSSL commands that I used to generate <code>.csr</code> files.</p>
+
+<pre><code class="language-bash"># Generate CSR file and private key with 2048 bit encryption
+openssl req -out CSR.csr -new -newkey rsa:2048 -nodes -keyout private.key
+
+# Generate CSR file with both private and public key
+openssl req -out CSR.csr -key private.key -new
+
+# Verify your CSR file
+openssl req -text -noout -verify -in CSR.csr
+
+# Validate your CSR file against private key
+openssl req -noout -modulus -in CSR.csr | openssl md5
+</code></pre>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

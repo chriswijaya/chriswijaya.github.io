@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>keytool on Chris Wijaya</title>
-    <link>/tags/keytool/</link>
-    <description>Recent content in keytool on Chris Wijaya</description>
+    <title>ssl/tls on Chris Wijaya</title>
+    <link>/tags/ssl/tls/</link>
+    <description>Recent content in ssl/tls on Chris Wijaya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Fri, 24 Nov 2017 13:22:24 +1000</lastBuildDate>
     
-	<atom:link href="/tags/keytool/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/ssl/tls/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,6 +21,17 @@
       <description>Java has keytool command that has comprehensive commands to deal with it&amp;rsquo;s SSL certificate management, inclusively commands that deal with operation towards extracting from and bundling into Java keystore/truststore or other type of SSL keystore types such as PKCS12.
 When building Java application you can use Key Store to store private key, and there is Trust Store to store certificates from trusted Certificate Authorities (CA).
 Key Store or Trust Store The naming convention confuses a lot of people including myself, however they are essentially of the same Java KeyStore (JKS) type.</description>
+    </item>
+    
+    <item>
+      <title>Create a Certificate Signing Request (CSR) with OpenSSL</title>
+      <link>/posts/openssl-create-csr/</link>
+      <pubDate>Sat, 18 Nov 2017 12:26:47 +1000</pubDate>
+      
+      <guid>/posts/openssl-create-csr/</guid>
+      <description>I needed to set up HTTPS enabled website in a secured business environment and a part of the process is to submit a Certificate Signing Request (CSR) to Certificate Authority (CA).
+HTTPS is SSL/TLS layer that secure communication between client and server on top of HTTP. If you’d like to know more about how HTTPS works, Robert Heaton wrote a good article about SSL/TLS over HTTP right here.
+To generate the .</description>
     </item>
     
   </channel>

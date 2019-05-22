@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pkcs12 on Chris Wijaya</title>
-    <link>https://chriswijaya.github.io/tags/pkcs12/</link>
-    <description>Recent content in Pkcs12 on Chris Wijaya</description>
+    <title>pkcs12 on Chris Wijaya</title>
+    <link>/tags/pkcs12/</link>
+    <description>Recent content in pkcs12 on Chris Wijaya</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/chriswijaya&#34;&gt;Chris Wijaya&lt;/a&gt; 2017</copyright>
-    <lastBuildDate>Fri, 24 Nov 2017 22:36:37 +1100</lastBuildDate>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 24 Nov 2017 13:22:24 +1000</lastBuildDate>
     
-	<atom:link href="https://chriswijaya.github.io/tags/pkcs12/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/pkcs12/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Bundle Public and Private Key in PKCS12 KeyStore</title>
-      <link>https://chriswijaya.github.io/post/keytool-shared-keystore-truststore/</link>
-      <pubDate>Fri, 24 Nov 2017 22:36:37 +1100</pubDate>
+      <title>Bundle keys into PKCS12</title>
+      <link>/posts/bundle-keys-into-pkcs12/</link>
+      <pubDate>Fri, 24 Nov 2017 13:22:24 +1000</pubDate>
       
-      <guid>https://chriswijaya.github.io/post/keytool-shared-keystore-truststore/</guid>
-      <description>There are many ways to install SSL certificate across different applications, it depends on what stack you used and method you chose. When building Java application you can use Key Store to store private key, and there is Trust Store to store certificates from trusted Certificate Authorities (CA).
-Key Store or Trust Store The naming convention confuses a lot of people, but essentialy they are of the same Java KeyStore (JKS) type.</description>
+      <guid>/posts/bundle-keys-into-pkcs12/</guid>
+      <description>Java has keytool command that has comprehensive commands to deal with it&amp;rsquo;s SSL certificate management, inclusively commands that deal with operation towards extracting from and bundling into Java keystore/truststore or other type of SSL keystore types such as PKCS12.
+When building Java application you can use Key Store to store private key, and there is Trust Store to store certificates from trusted Certificate Authorities (CA).
+Key Store or Trust Store The naming convention confuses a lot of people including myself, however they are essentially of the same Java KeyStore (JKS) type.</description>
     </item>
     
   </channel>
